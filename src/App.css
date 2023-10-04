@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.insurance-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.insurance-card {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 10px;
+  width: 350px;
+  height: 170px;
+}
+
+.quote-form {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 300px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+.card.insurance-card {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #dee2e6; /* Light border color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+
+  &:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+
+  .card-body {
+    color: #495057; /* Dark text color */
+    text-decoration: none;
+  }
+
+  .card-title {
+    color: #007bff; /* Blue title color */
+    text-decoration: none;
+  }
+
+  .card-text {
+    margin-bottom: 1rem; /* Add some space below the text */
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 2rem; /* Larger shield icon */
+    color: #28a745; /* Green shield color */
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Blue heading color */
+  font-family: 'Arial', sans-serif; /* Font family */
+  font-weight: bold; /* Bold font weight */
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+h2 {
+  font-size: 2rem; /* Custom font size for h2 */
+}
+
+/* Additional styling for specific headings if needed */
+
+h1 {
+  font-size: 3rem; /* Custom font size for h1 */
+}
+
+h3 {
+  font-size: 1.5rem; /* Custom font size for h3 */
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
